@@ -25,7 +25,7 @@ $('#main-nav a').on('click', function (e) {
 $('[data-toggle="tooltip"]').tooltip();
 
 
-cconst searchFun = () => {
+const searchFun = () => {
 	let filter = document.getElementById('searchBar').value.toUpperCase();
 	let col = document.getElementById('movie-section');
 	let eachCard = col.getElementsByClassName('mt-2');
